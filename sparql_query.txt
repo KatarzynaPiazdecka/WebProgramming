@@ -1,0 +1,16 @@
+SELECT DISTINCT ?filozof, ?label, MIN(?deathPlace), ?era, MIN(?religion), ?birthDate
+WHERE {
+ ?filozof rdf:type dbpedia-owl:Philosopher.
+ ?filozof rdfs:label ?label.
+ ?filozof dbpedia-owl:deathPlace ?ds.
+ ?ds rdfs:label ?deathPlace.
+ ?filozof dbpprop:era ?era.
+ OPTIONAL {?filozof dbpprop:religion ?r.
+ ?r rdfs:label ?religion.}
+ ?filozof dbpprop:birthDate ?birthDate.
+
+FILTER (langMatches(lang(?label),"en")).
+FILTER (langMatches(lang(?deathPlace),"en")).
+}
+ORDER BY (?deathPlace)
+limit 500
