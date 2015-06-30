@@ -1,0 +1,81 @@
+body {
+  background-color: rgb(194, 183, 170);
+  }
+
+.philchoice {
+  font-size: 35px;
+  color: rgb(165, 166, 166);
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Basic', sans-serif;
+  background-color: #000000;
+  font-weight: 900;
+}
+
+.wrapper {
+  border: solid;
+  width: 940px;
+  margin: 50px auto;
+  padding: 20px 0px;
+  font-size: 15px;
+  min-height: 800px;
+  border-width: 36px;
+}
+
+input[type=submit] {
+	border : solid 0px #040336;
+	border-radius : 5px;
+	moz-border-radius : 5px;
+	-webkit-box-shadow : 0px 0px 5px rgba(10,0,10,1.0);
+	-moz-box-shadow : 0px 0px 5px rgba(10,0,10,1.0);
+	box-shadow : 0px 0px 5px rgba(10,0,10,1.0);
+	font-size : 14px;
+  color: rgb(44, 43, 43);
+	padding : 6px 3px;
+	background : #ffffff;
+	background : -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(38%,#dae3e3), color-stop(100%,#b8b7a7));
+	background : -moz-linear-gradient(top, #ffffff 0%, #dae3e3 38%, #b8b7a7 100%);
+	background : -webkit-linear-gradient(top, #ffffff 0%, #dae3e3 38%, #b8b7a7 100%);
+	background : -o-linear-gradient(top, #ffffff 0%, #dae3e3 38%, #b8b7a7 100%);
+	background : -ms-linear-gradient(top, #ffffff 0%, #dae3e3 38%, #b8b7a7 100%);
+	background : linear-gradient(top, #ffffff 0%, #dae3e3 38%, #b8b7a7 100%);
+	filter : progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#b8b7a7',GradientType=0 );
+    padding: 4px;
+    margin-top: 10px;
+
+}
+
+option {
+color=red;
+}
+
+select[name=religion] {
+  box-shadow: 0px 0px 5px rgba(10,0,10,1.0);
+  border-color: rgb(225, 224, 249);
+  border-radius: 6px;
+  margin-top: 5px;
+  color: rgb(44, 43, 43);
+  font-family: 'Basic', sans-serif;
+}
+
+.religion {
+  margin: auto;
+  text-align: center;
+  padding-top: 40px;
+  font-weight: 300;
+  color: rgb(44, 43, 43);
+  background-image: url('td.jpg');
+  min-height: 800px;
+  }
+  
+  .religion a{
+  color: black;
+  }
+  
+ .religioncontent {
+  min-height: 755px;
+  width: 540px;
+  background-color: rgba(171, 171, 171, 0.4);
+  margin: auto;
+  font-size:13px;
+ }
