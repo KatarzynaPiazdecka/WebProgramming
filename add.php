@@ -79,5 +79,5 @@ echo "<pre>";
 print_r($results); //wyswietla czytalne dla czlowieka results
 
 echo "</pre>";
-$time = microtime(true) - $_SERVER["REQUEST_TIME_FLOAT"]; co robi Myslnik? ; Request_time_float - z superglobal array Server. zawiera zancznik czasu poczatku zapytania z mikrosekundowa precyzja
+$time = microtime(true) - $_SERVER["REQUEST_TIME_FLOAT"]; //co robi Myslnik? ; Request_time_float - z superglobal array Server. zawiera zancznik czasu poczatku zapytania z mikrosekundowa precyzja
 echo $time;
