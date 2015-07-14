@@ -70,7 +70,7 @@ foreach($filnum as $key => $num) // CO ROBI  =>
        }
    } 
    $results[] = $philarray;
-   echo "<pre>"; // co wyswietla pre?
+   echo "<pre>"; // co robi pre?
    //$db->insert('philosophers', $philarray);                                 //dodaje rekordy do bazy
    echo "</pre>";
 }
